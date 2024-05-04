@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3CLogic</title>
+    <link href="https://unpkg.com/singledivui/dist/singledivui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="header-main">
+        <div class="logo-box">
+            <a href="#">
+                <i class="fa fa-bars"></i>
+                <!-- <i class="fa fa-times"></i> -->
+            </a>
+            <a href="#"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="qa-noida">
+            <ul>
+                <li><a href="#" class="text-Qa">QA</a></li>
+                <li><a href="#">QA-Noida <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <ul class="sub-qa">
+                        <li><a href="#">Welcome!</a></li>
+                        <li><a href="#"> QA-Noida </a></li>
+
+                        <li><a href="#"><span><i class="fa fa-cog" aria-hidden="true"></i></span> Account Setting</a>
+                        </li>
+                        <li><a href="#"><span><i class="fa fa-user" aria-hidden="true"></i></span> User Setting</a></li>
+                        <li><a href="#"><span><i class="fa fa-question-circle" aria-hidden="true"></i></span> Help
+                                Center</a></li>
+                        <li><a href="#"><span><i class="fa fa-long-arrow-left" aria-hidden="true"></i></span> Help
+                                Center</a></li>
+                        <li><a href="#"><span><i class="fa fa-sign-out" aria-hidden="true"></i></span> Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+
+    <div class="side-mian">
+        <div class="side-menu">
+            <ul>
+                <li><a href="#"><i class="fa fa-search menu-icon" aria-hidden="true"></i> <span>Search...</span></a>
+                </li>
+                <li><a href="#"><i class="fa fa-home  menu-icon" aria-hidden="true"></i> <span>Home</span></a></li>
+                <li><a href="#"><i class="fa fa-user  menu-icon" aria-hidden="true"></i> <span>Users</span></a></li>
+                <li><a href="#"><i class="fa fa-cog  menu-icon" aria-hidden="true"></i> <span>skills</span></a></li>
+                <li><a href="#"><i class="fa fa-address-book  menu-icon" aria-hidden="true"></i> <span>quesue
+                        </span></a></li>
+
+            </ul>
+        </div>
+        <div class="dashboard ">
+            <div class="d-f">
+                <div class="dashdoard-left">
+                    <ul>
+                        <li><a href="#">
+                                <i class="fa fa-angle-left dash-angle" aria-hidden="true"></i>
+                                Dashboards
+                            </a></li>
+                        <li><a href="#" class="text-color">
+                                Supervisor Dashboard
+                                <img src="img/Info-fill.png" alt="" class="info-icon"></a> </li>
+                    </ul>
+                </div>
+                <div class="dashdoard-right">
+                    <div class="select-box">
+                        <select class="abc">
+                            <option value="Custom Dashboards">Custom Dashboards</option>
+                            <option value="Main Default Dashboard">Main Default Dashboard</option>
+                            <option value="Custom Dashboard 1">Custom Dashboard 1</option>
+                            <option value="Custom Dashboard 2">Custom Dashboard 2</option>
+                            <option value="Custom Dashboard 3">Custom Dashboard 3</option>
+                            <option value="Dashboard Tables Only">Dashboard Tables Only</option>
+                            <option value="Dashboard Charts + Cards">Dashboard Charts + Cards</option>
+                        </select>
+                    </div>
+                    <div class="select-btn">
+                        <button class="btn-fun"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+                        <button class="btn-fun">Save <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                        <button class="btn-fun"><i class="fa fa-cog" aria-hidden="true"></i></button>
+                        <button class="btn-fun"><i class="fa fa-share" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+            <section>
+                <div class="form-time">
+                    <div class="time-box">
+                        <select class="abc">
+                            <option value="Today from 9AM">Today from 9AM</option>
+                            <option value="Today from Midnight">Today from Midnight</option>
+                            <option value="Today from 8AM">Today from 8AM</option>
+                            <option value="Today from 10AM">Today from 10AM</option>
+                        </select>
+
+                    </div>
+
+                    <div class="input-block">
+                        <div class="agent-box">
+                            <p> <b>Agents:</b> Michael Rob, Kane William... <i class="fa fa-angle-down input-angle"
+                                    aria-hidden="true"></i>
+                            </p>
+                        </div>
+                        <div class="checked-main">
+                            <div class="delete-box">
+                                <div class="delete-text">
+                                    <!-- <p>Michael Rob, Kane Williamson, Mark Guptil, Kevin Peterson</p> -->
+                                    <input style="border: none;" type="text"
+                                        placeholder="Michael Rob, Kane Williamson, Mark Guptil, Kevin Peterson">
+                                </div>
+                                <div class="delete-icon">
+                                    <i class="fa fa-trash " aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="input-check">
+                                <form action="#">
+                                    <input type="checkbox" id="check1">
+                                    <label for="check1"> Michael Rob</label>
+                                </form>
+                                <form action="#">
+                                    <input type="checkbox" id="check2">
+                                    <label for="check2"> Kane Williamson</label>
+                                </form>
+                                <form action="#">
+                                    <input type="checkbox" id="check3">
+                                    <label for="check3"> Mark Guptil</label>
+                                </form>
+                                <form action="#">
+                                    <input type="checkbox" id="check4">
+                                    <label for="check4">Kevin Peterson</label>
+                                </form>
+                                <form action="#">
+                                    <input type="checkbox" id="check5">
+                                    <label for="check5"> Peter Taylor</label>
+                                </form>
+                                <form action="#">
+                                    <input type="checkbox" id="check6">
+                                    <label for="check6">Alex Richard</label>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="input-block2">
+                        <div class="agent-box2">
+                            <p> Queue <i class="fa fa-angle-down input-angle2" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                        <div class="checked-main2">
+                            <div class="delete-box">
+                                <div class="delete-text">
+                                    <!-- <p>Select one or more options...</p> -->
+                                    <input style="border: none;" type="text"
+                                        placeholder="Michael Rob, Kane Williamson, Mark Guptil, Kevin Peterson">
+                                </div>
+                                <div class="delete-icon">
+                                    <i class="fa fa-trash " aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="input-check">
+                                <form action="#">
+                                    <input type="checkbox" id="check7">
+                                    <label for="check7"> Inbound Sales</label>
+                                </form>
+                                <form action="#">
+                                    <input type="checkbox" id="check8">
+                                    <label for="check8">IT Help Desk</label>
+                                </form>
+                                <form action="#">
+                                    <input type="checkbox" id="check9">
+                                    <label for="check9">SAP_Inbound</label>
+                                </form>
+                                <form action="#">
+                                    <input type="checkbox" id="check10">
+                                    <label for="check10">Quebec_In</label>
+                                </form>
+                                <form action="#">
+                                    <input type="checkbox" id="check11">
+                                    <label for="check11"> Sales Outbound</label>
+                                </form>
+                                <form action="#">
+                                    <input type="checkbox" id="check12">
+                                    <label for="check12">HR Onboard Support</label>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class=" input-block3 ">
+                        <div class=" agent-box3">
+                            <p> Interaction Flow<i class="fa fa-angle-down input-angle3" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                        <div class=" checked-main3">
+                            <div class="delete-box">
+                                <div class="delete-text">
+                                    <!-- <p>Select one or m ore options...</p> -->
+                                    <input style="border: none;" type="text"
+                                        placeholder="Michael Rob, Kane Williamson, Mark Guptil, Kevin Peterson">
+                                </div>
+                                <div class="delete-icon">
+                                    <i class="fa fa-trash " aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="input-check">
+                                <form action="#">
+                                    <input type="checkbox" id="check7">
+                                    <label for="check7"> Inbound Sales</label>
+                                </form>
+                                <form action="#">
+                                    <input type="checkbox" id="check8">
+                                    <label for="check8">IT Help Desk</label>
+                                </form>
+                                <form action="#">
+                                    <input type="checkbox" id="check9">
+                                    <label for="check9">SAP_Inbound</label>
+                                </form>
+                                <form action="#">
+                                    <input type="checkbox" id="check10">
+                                    <label for="check10">Quebec_In</label>
+                                </form>
+                                <form action="#">
+                                    <input type="checkbox" id="check11">
+                                    <label for="check11"> Sales Outbound</label>
+                                </form>
+                                <form action="#">
+                                    <input type="checkbox" id="check12">
+                                    <label for="check12">HR Onboard Support</label>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="link-clear">
+                        <a href="#">Clear Filter</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="dashboard-card">
+                <div class="container">
+                    <div class="row">
+                        <div class="d-card-main">
+                            <div class="card-box">
+                                <div class="card-icon">
+                                    <a href="#"><i class="fa fa-users card-fa" aria-hidden="true"></i></a>
+                                    <p>TOTAL INTERACTION</p>
+                                    <h2>66</h2>
+                                    <div class="in-out-nub">
+                                        <span>IN: 0000</span>
+                                        <span>OUT 0000</span>
+                                    </div>
+                                    <div class="card-setting-icon">
+                                        <a href="#" id="mySizeChart"><i class="fa fa-cog Setting-icon1"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="card-box">
+                                <div class="card-icon">
+                                    <a href="#"><img src="img/Interaction.png" alt=""></a>
+                                    <p>INBOUND CALLS IN QUEUE</p>
+                                    <h2>17</h2>
+
+                                    <div class="card-setting-icon">
+                                        <a href="#" id="mySizeChart1"><i class="fa fa-cog Setting-icon1"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="card-box">
+                                <div class="card-icon">
+                                    <a href="#"><i class="fa-regular fa-clock card-fa"></i></a>
+                                    <p>INBOUND CALLS IN QUEUE</p>
+                                    <h2>00:00:50</h2>
+
+                                    <div class="card-setting-icon">
+                                        <a href="#" id="mySizeChart2"><i class="fa fa-cog Setting-icon1"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="card-box">
+                                <div class="card-icon">
+                                    <a href="#"><i class="fa fa-line-chart card-fa" aria-hidden="true"></i></a>
+                                    <p>INBOUND CALL SERVICE LEVEL</p>
+                                    <h2>18%</h2>
+
+                                    <div class="card-setting-icon">
+                                        <a href="#" id="mySizeChart3"><i class="fa fa-cog Setting-icon1"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="card-box">
+                                <div class="card-icon">
+                                    <a href="#"> <a href="#"><i class="fa fa-volume-control-phone card-fa"
+                                                aria-hidden="true"></i></a>
+                                    </a>
+                                    <p>INBOUND CALL AVG. TALK TIME</p>
+                                    <h2>00:12:00</h2>
+
+                                    <div class="card-setting-icon">
+                                        <a href="#" id="mySizeChart4"><i class="fa fa-cog Setting-icon1"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="card-box">
+                                <div class="card-icon">
+                                    <a href="#"><i class="fa fa-volume-control-phone card-fa"
+                                            aria-hidden="true"></i></a>
+                                    <p>ABANDONED OUTBOUND CALL RATE</p>
+                                    <h2>14%</h2>
+                                    <div class="in-out-nub">
+                                        <span>Call Abandoned: 16</span>
+
+                                    </div>
+                                    <div class="card-setting-icon">
+                                        <a href="#" id="mySizeChart5"><i class="fa fa-cog Setting-icon1"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div id="mySizeChartModal" class="ebcf_modal">
+
+                                <div class="ebcf_modal-content">
+                                    <span class="ebcf_close">&times;</span>
+                                    <p>Alert Setting</p>
+                                    <div class="add-btn">
+                                        <button class="oppup-btn"><i class="fa-sharp fa-solid fa-plus"></i> Add
+                                            Alert</button>
+                                    </div>
+                                    <div class="desc-box">
+                                        <div class="desc-detail">
+                                            <div class="desc-box1"><span>Condition</span></div>
+                                            <div class="desc-box1"><span>Description</span></div>
+                                            <div class="desc-box1 pe-5"><span>Enable</span></div>
+                                        </div>
+
+                                        <div class="no-alert">
+                                            <p class="text-op">No alert added yet</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="agent-statistics-section">
+
+                <div class="agent-statistics-main">
+                    <div class="agent-blog-left">
+                        <div class="agent-loader">
+                            <div class="agent-loader-left">
+                                <p>AGENT STATISTICS</p>
+                                <span><i class="fa fa-refresh" aria-hidden="true"></i> 3 min ago</span>
+
+                            </div>
+                            <div class="agent-loader-right">
+                                <ul>
+                                    <li><a href="#"><i
+                                                class="fa-solid fa-up-right-and-down-left-from-center fa-color"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-share fa-color" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-cog fa-color " aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <canvas id="myChart"></canvas>
+
+                    </div>
+                    <div class="agent-blog-right agent-blog-left">
+                        <div class="agent-loader">
+                            <div class="agent-loader-left">
+                                <p>HOURLY INBOUND CALL STATISTICS</p>
+                                <span><i class="fa fa-refresh" aria-hidden="true"></i> 30 sec ago</span>
+                            </div>
+                            <div class="agent-loader-right">
+                                <ul>
+                                    <li><a href="#"><i
+                                                class="fa-solid fa-up-right-and-down-left-from-center fa-color"></i>
+                                        </a>
+
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-share fa-color" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-cog fa-color " aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <canvas id="myChart2" style="max-height: 300px;"></canvas>
+
+                    </div>
+                </div>
+
+            </section>
+
+
+
+            <section class="agent-statistics-section  Interaction1">
+
+                <div class="agent-statistics-main">
+                    <div class="agent-blog-left Interaction-blog-left ">
+                        <div class="agent-loader ">
+                            <div class="agent-loader-left">
+                                <p>TOTAL INTERACTIONS</p>
+                                <span><i class="fa fa-refresh" aria-hidden="true"></i> 3 min ago</span>
+
+                            </div>
+                            <div class="agent-loader-right">
+                                <ul>
+                                    <li><a href="#"><i
+                                                class="fa-solid fa-up-right-and-down-left-from-center fa-color"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-share fa-color" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-cog fa-color " aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="circle-chart">
+
+                            <div class="circle-box">
+                                <div class="intrection-button">
+                                    <button class="int-btn1">Total Interactions</button>
+                                    <button class="int-btn1">SLA %</button>
+                                </div>
+                                <div id="piechart" style="width: 400px; height: 450px; background-color: transparent;">
+                                </div>
+                            </div>
+
+                            <div class="table-box">
+                                <table style="width:100%">
+                                    <tr>
+                                        <th>Interaction Type</th>
+                                        <th>Interaction in Queue</th>
+                                        <th>SLA%</th>
+                                    </tr>
+                                    <tr>
+                                        <td><span></span>Inbound Voice</td>
+                                        <td>20</td>
+                                        <td>80%</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span style="background-color: #FDBE11"></span>Outbound Voice</td>
+                                        <td>14</td>
+                                        <td>78%</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span style="background-color: #2DB3B4"></span>SMS</td>
+                                        <td>12</td>
+                                        <td>55%</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="agent-blog-right agent-blog-left Interaction-blog-left Interaction-blog-right">
+                        <div class="agent-loader ">
+                            <div class="agent-loader-left">
+                                <p>LIVE INTERACTIONS</p>
+                                <span><i class="fa fa-refresh" aria-hidden="true"></i> 30 sec ago</span>
+                            </div>
+                            <div class="agent-loader-right">
+                                <ul>
+                                    <li><a href="#"><i
+                                                class="fa-solid fa-up-right-and-down-left-from-center fa-color"></i>
+                                        </a>
+
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-share fa-color" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-cog fa-color " aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="circle-chart">
+
+                            <div class="circle-box">
+                                <div class="intrection-button intrection-but-2">
+                                    <button class="int-btn2">Interactions in Queue</button>
+                                    <button class="int-btn2">Active Interactions</button>
+                                </div>
+                                <div id="piecharttwo"
+                                    style="width: 400px; height: 450px; background-color: transparent;">
+                                </div>
+                            </div>
+
+                            <div class="table-box">
+                                <table style="width:100%">
+                                    <tr>
+                                        <th>Interaction Type</th>
+                                        <th>Interaction in Queue</th>
+                                        <th>Active Interactions</th>
+                                    </tr>
+                                    <tr>
+                                        <td><span></span>Inbound Voice</td>
+                                        <td>20</td>
+                                        <td>80%</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span style="background-color: #FDBE11"></span>Outbound Voice</td>
+                                        <td>14</td>
+                                        <td>78%</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span style="background-color: #2DB3B4"></span>SMS</td>
+                                        <td>12</td>
+                                        <td>55%</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="agent-statistics-section Interaction1 ">
+
+                <div class="agent-statistics-main">
+                    <div class="agent-blog-left Interaction-blog-left  agent-status ">
+                        <div class="agent-loader ">
+                            <div class="agent-loader-left">
+                                <p>AGENT STATUS</p>
+                                <span><i class="fa fa-refresh" aria-hidden="true"></i> 3 min ago</span>
+
+                            </div>
+                            <div class="agent-loader-right">
+                                <ul>
+                                    <li><a href="#"><i
+                                                class="fa-solid fa-up-right-and-down-left-from-center fa-color"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-share fa-color" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-cog fa-color " aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mob-table">
+                            <table>
+                                <thead>
+                                    <th>Name</th>
+                                    <th>Status</th>
+                                    <th>Available Queues</th>
+                                    <th>Live Interactions</th>
+                                    <th>Time</th>
+                                </thead>
+                                <tbody>
+                                    <tr class="bg-tr">
+                                        <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                        <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                        <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                        <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                        <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Peter Taylor</td>
+                                        <td><span class="dots "></span>Available</td>
+                                        <td>Available</td>
+                                        <td>
+                                            <div class="main-contect">
+                                                <div class="contect-box">
+                                                    <span><i class="fa-solid fa-phone"></i></span>
+                                                    <span>1</span>
+
+                                                </div>
+                                                <div class="contect-box ">
+                                                    <span><i class="fa-brands fa-whatsapp"></i></span>
+                                                    <span class="bg-g">2</span>
+
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>00:56:00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Bill Hicks</td>
+                                        <td><span class="dots dots1"></span>Busy</td>
+                                        <td>ITSM, CSM [+1]</td>
+                                        <td>
+                                            <div class="main-contect">
+                                                <div class="contect-box w-box">
+                                                    <span><i class="fa-solid fa-phone"></i></span>
+                                                    <span class="t" style="display: none;">1</span>
+
+                                                </div>
+                                                <div class="contect-box">
+                                                    <span><i class="fa-brands fa-whatsapp"></i></span>
+                                                    <span class="bg-g">2</span>
+
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>00:56:00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Amelia Cabal</td>
+                                        <td><span class="dots dots2"></span>On Break</td>
+                                        <td>CSM, HR</td>
+                                        <td>
+                                            <div class="main-contect">
+                                                <div class="contect-box">
+                                                    <span><i class="fa-solid fa-phone"></i></span>
+                                                    <span>2</span>
+
+                                                </div>
+                                                <div class="contect-box w-box2">
+                                                    <span><i class="fa-brands fa-whatsapp"></i></span>
+                                                    <span class="bg-g" style="display: none;">2</span>
+
+                                                </div>
+                                                <div class="contect-box massege-box">
+                                                    <span><i class="fa-solid fa-message"></i></span>
+                                                    <span>2</span>
+
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>00:56:00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Peter Taylor</td>
+                                        <td><span class="dots dots3"></span>Available</td>
+                                        <td>Available</td>
+                                        <td>
+                                            <div class="main-contect">
+                                                <div class="contect-box">
+                                                    <span><i class="fa-solid fa-phone"></i></span>
+                                                    <span>1</span>
+
+                                                </div>
+                                                <div class="contect-box peter-box">
+                                                    <span><i class="fa-brands fa-whatsapp"></i></span>
+                                                    <span class="bg-g">1</span>
+
+                                                </div>
+                                                <div class="contect-box massege-box w-box3">
+                                                    <span><i class="fa-solid fa-message "></i></span>
+                                                    <span style="display: none;">2</span>
+
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>00:56:00</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Peter Taylor</td>
+                                        <td><span class="dots dots4"></span>Available</td>
+                                        <td>Available</td>
+                                        <td>
+                                            <div class="main-contect">
+                                                <div class="contect-box">
+                                                    <span><i class="fa-solid fa-phone"></i></span>
+                                                    <span>1</span>
+
+                                                </div>
+                                                <div class="contect-box">
+                                                    <span><i class="fa-brands fa-whatsapp"></i></span>
+                                                    <span class="bg-g">2</span>
+
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>00:56:00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Peter Taylor</td>
+                                        <td><span class="dots dots5"></span>Available</td>
+                                        <td>Available</td>
+                                        <td>
+                                            <div class="main-contect">
+                                                <div class="contect-box">
+                                                    <span><i class="fa-solid fa-phone"></i></span>
+                                                    <span>1</span>
+
+                                                </div>
+                                                <div class="contect-box">
+                                                    <span><i class="fa-brands fa-whatsapp"></i></span>
+                                                    <span class="bg-g">2</span>
+
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>00:56:00</td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+
+                    </div>
+                    <div
+                        class="agent-blog-right agent-blog-left Interaction-blog-left Interaction-blog-right agent-status  Queue-status">
+                        <div class="agent-loader ">
+                            <div class="agent-loader-left">
+                                <p>QUEUE STATUS</p>
+                                <span><i class="fa fa-refresh" aria-hidden="true"></i> 30 sec ago</span>
+                            </div>
+                            <div class="agent-loader-right">
+                                <ul>
+                                    <li><a href="#"><i
+                                                class="fa-solid fa-up-right-and-down-left-from-center fa-color"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-share fa-color" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-cog fa-color " aria-hidden="true"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mob-table">
+                            <table style="width:100%">
+                                <thead>
+                                    <th>Queue Name</th>
+                                    <th>Interactions in Queue</th>
+                                    <th>Available Agents</th>
+                                    <th>Assigned Agents</th>
+                                    <th>Logged in Agents</th>
+                                </thead>
+                                <tbody>
+                                    <tr class="bg-tr">
+                                        <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                        <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                        <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                        <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                        <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>S-Group A</td>
+                                        <td>01</td>
+                                        <td>23</td>
+                                        <td>23</td>
+                                        <td>23</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>S-Group A</td>
+                                        <td>01</td>
+                                        <td>23</td>
+                                        <td>23</td>
+                                        <td>23</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>S-Group A</td>
+                                        <td>01</td>
+                                        <td>23</td>
+                                        <td>23</td>
+                                        <td>23</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>S-Group A</td>
+                                        <td>01</td>
+                                        <td>23</td>
+                                        <td>23</td>
+                                        <td>23</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>S-Group A</td>
+                                        <td>01</td>
+                                        <td>23</td>
+                                        <td>23</td>
+                                        <td>23</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>S-Group A</td>
+                                        <td>01</td>
+                                        <td>23</td>
+                                        <td>23</td>
+                                        <td>23</td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="flow-overview">
+                <div class="flow-mian">
+                    <div class="flow-over-blog">
+                        <div class="flow-blog-left">
+                            <p>QUEUE OVERVIEW</p>
+                        </div>
+                        <div class="flow-blog-right">
+                            <ul>
+                                <li><a href="#"><i
+                                            class="fa-solid fa-up-right-and-down-left-from-center fa-color"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-share fa-color" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-cog fa-color " aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="scroll-box">
+                        <table style="min-width:2880px">
+                            <thead>
+                                <th>Queue Name</th>
+                                <th>DNIS</th>
+                                <th>Interaction Flow Name</th>
+                                <th>Interactions to Queue</th>
+                                <th>Longest Wait Time</th>
+                                <th>Service Level (%)</th>
+                                <th>Speed of Answer</th>
+                                <th>Handled Interactions</th>
+                                <th>Abandoned Call (%)</th>
+                                <th>Service Level (%)</th>
+                                <th>Speed of Answer</th>
+                                <th>Handled Interactions</th>
+                                <th>Abandoned Call (%)</th>
+                                <th>Service Level (%)</th>
+                                <th>Speed of Answer</th>
+                                <th>Speed of Answer</th>
+
+                                <tr class="bg-tr2">
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>Inbound Support</td>
+                                    <td>Inbound Call Queue</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>04</td>
+                                    <td>Inbound Call Queue</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>04</td>
+                                    <td>00:15:12</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td>SMS Support</td>
+                                    <td>SMS Queue</td>
+                                    <td>SMS Support</td>
+                                    <td>77</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>12</td>
+                                    <td>Inbound Call Queue</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>12</td>
+                                    <td>00:15:12</td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>WhatsApp S</td>
+                                    <td>Whatsapp Queue</td>
+                                    <td>WhatsApp S</td>
+                                    <td>11</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>11</td>
+                                    <td>00:15:12</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>12</td>
+                                    <td>00:15:12</td>
+
+                                </tr>
+
+
+                                <tr>
+                                    <td>Sales_Out</td>
+                                    <td>Outbound Call Queue</td>
+                                    <td>Sales_Out</td>
+                                    <td>12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>36</td>
+                                    <td>00:15:12</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>12</td>
+                                    <td>00:15:12</td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>English</td>
+                                    <td>Outbound Call Queue</td>
+                                    <td>English</td>
+                                    <td>69</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>09</td>
+                                    <td>Inbound Call Queue</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>12</td>
+                                    <td>00:15:12</td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>IInbound Support</td>
+                                    <td>Inbound Call Queue</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>12</td>
+                                    <td>Inbound Call Queue</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>12</td>
+                                    <td>00:15:12</td>
+
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <section class="flow-overview">
+                <div class="flow-mian">
+                    <div class="flow-over-blog">
+                        <div class="flow-blog-left">
+                            <p>INTERACTION FLOW OVERVIEW</p>
+                        </div>
+                        <div class="flow-blog-right">
+                            <ul>
+                                <li><a href="#"><i
+                                            class="fa-solid fa-up-right-and-down-left-from-center fa-color"></i></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-share fa-color" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-cog fa-color " aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="scroll-box">
+                        <table style="min-width:3000px">
+                            <thead>
+                                <th>Interaction Flow Name</th>
+                                <th>Interaction Flow Type</th>
+                                <th>ILogged in Agents</th>
+                                <th>Total Interaction</th>
+                                <th>Handled Interaction</th>
+                                <th>Service Level</th>
+                                <th>Speed of Response</th>
+                                <th>Abandoned Rate</th>
+                                <th>Avg. Wrap-up Duration</th>
+                                <th>Handled Interaction</th>
+                                <th>Speed of Answer</th>
+                                <th>Handled Interactions</th>
+                                <th>Abandoned Call (%)</th>
+                                <th>Service Level (%)</th>
+                                <th>Speed of Answer</th>
+                                <th>Speed of Answer</th>
+
+                                <tr class="bg-tr2">
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+                                    <td><input type="text"> <img src="img/funnel.png" alt=""></td>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>Inbound Support</td>
+                                    <td>Inbound Call Queue</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>04</td>
+                                    <td>Inbound Call Queue</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>04</td>
+                                    <td>00:15:12</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td>SMS Support</td>
+                                    <td>SMS Queue</td>
+                                    <td>SMS Support</td>
+                                    <td>77</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>12</td>
+                                    <td>Inbound Call Queue</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>12</td>
+                                    <td>00:15:12</td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>WhatsApp S</td>
+                                    <td>Whatsapp Queue</td>
+                                    <td>WhatsApp S</td>
+                                    <td>11</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>11</td>
+                                    <td>00:15:12</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>12</td>
+                                    <td>00:15:12</td>
+
+                                </tr>
+
+
+                                <tr>
+                                    <td>Sales_Out</td>
+                                    <td>Outbound Call Queue</td>
+                                    <td>Sales_Out</td>
+                                    <td>12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>36</td>
+                                    <td>00:15:12</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>12</td>
+                                    <td>00:15:12</td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>English</td>
+                                    <td>Outbound Call Queue</td>
+                                    <td>English</td>
+                                    <td>69</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>09</td>
+                                    <td>Inbound Call Queue</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>12</td>
+                                    <td>00:15:12</td>
+
+                                </tr>
+
+                                <tr>
+                                    <td>IInbound Support</td>
+                                    <td>Inbound Call Queue</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>12</td>
+                                    <td>Inbound Call Queue</td>
+                                    <td>Inbound Support</td>
+                                    <td>40</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>00:15:12</td>
+                                    <td>12</td>
+                                    <td>00:15:12</td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/gobal.js"></script>
+
+</body>
+
+</html>

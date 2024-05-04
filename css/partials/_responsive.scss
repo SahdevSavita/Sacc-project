@@ -1,0 +1,416 @@
+@media screen and (max-width:1879px) {
+
+    // .Interaction1 .agent-statistics-main .Interaction-blog-left .circle-chart, .Interaction1 .agent-statistics-main .agent-blog-right .circle-chart {
+    //     flex-direction: column;
+    // }
+    .Interaction1 {
+        .agent-statistics-main {
+            .Interaction-blog-left {
+                .circle-chart {
+                    flex-direction: column;
+
+                    .circle-box {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .table-box {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .agent-status {
+            table {
+                tbody {
+                    .bg-tr {
+                        td {
+                            padding: 14px 10px;
+                        }
+                    }
+                }
+
+                td {
+                    padding: 10px;
+                }
+            }
+        }
+
+    }
+
+}
+
+
+@media screen and (max-width:1679px) {
+    .dashboard-card {
+        .d-card-main {
+            .card-box {
+                width: calc(33.33% - 7px);
+            }
+        }
+    }
+
+
+
+    .Interaction1 {
+        .agent-statistics-main {
+            .agent-status {
+                table {
+                    td {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .Interaction1 {
+        .agent-statistics-main {
+            .Interaction-blog-left {
+                width: 100%;
+            }
+
+            .agent-blog-right {
+                width: 100%;
+            }
+        }
+    }
+
+    .agent-statistics-section {
+        .agent-statistics-main {
+            flex-direction: column;
+
+            .agent-blog-left {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    .dashboard-card {
+        .d-card-main {
+            .card-box {
+                width: calc(50% - 5px);
+            }
+        }
+    }
+
+
+
+    .side-mian {
+        .dashboard {
+            .d-f {
+                flex-direction: column;
+
+                .dashdoard-left {
+                    padding-left: 0;
+                    width: 100%;
+                    justify-content: center;
+                    display: flex;
+                }
+            }
+
+            .dashdoard-right {
+                padding-right: 0;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-top: 15px;
+            }
+
+        }
+
+        .form-time {
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+
+            .checked-main {
+                position: absolute;
+                top: 261px;
+                left: 290px;
+            }
+
+            .input-block2 {
+                .checked-main2 {
+                    position: absolute;
+                    top: 309px;
+                    left: 298px;
+                }
+            }
+
+            .input-block3 {
+                .checked-main3 {
+                    top: 354px;
+                    left: 310px;
+                }
+            }
+
+            .link-clear {
+                a {
+                    line-height: 0;
+                }
+            }
+
+        }
+
+
+        .Interaction1 {
+            .agent-statistics-main {
+                .agent-status {
+                    table {
+                        thead {
+                            th {
+                                padding: 14px 10px;
+                            }
+                        }
+
+                        tbody {
+                            .bg-tr {
+                                td {
+                                    padding: 14px 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .dashboard-card {
+        .d-card-main {
+
+            .card-box {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:767px) {
+
+
+
+    .Interaction1 {
+        .agent-statistics-main {
+            .agent-status {
+                .mob-table table {
+                    min-width: 900px;
+                }
+
+                .mob-table {
+                    width: 100%;
+                    overflow-x: scroll;
+                }
+            }
+
+            .Interaction-blog-left {
+                .circle-chart {
+                    margin: 5px 0;
+                    padding: 0 5px;
+
+                    .intrection-but-2 {
+                        .int-btn2 {
+                            font-size: 11px;
+                            line-height: 14px;
+                            margin-right: 6px;
+                        }
+                    }
+
+                    .intrection-button {
+                        .int-btn1 {
+                            font-size: 11px;
+                            line-height: 14px;
+                            margin-right: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:575px) {
+
+    .table-box {
+        th {
+            padding: 10px 10px;
+        }
+    }
+
+    .Interaction1 {
+        .agent-statistics-main {
+            .Interaction-blog-left {
+                .circle-chart {
+                    .table-box {
+                        th {
+                            padding: 10px 10px;
+                        }
+                    }
+                }
+            }
+
+            .Interaction-blog-right {
+                .circle-chart {
+                    .table-box {
+                        table {
+                            tbody {
+                                tr {
+                                    th {
+                                        padding: 10px 4px;
+                                    }
+
+                                    td {
+                                        padding: 10px 4px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .side-mian {
+        .form-time {
+            .checked-main {
+                top: 274px;
+                left: 150px;
+            }
+
+            .input-block2 {
+                .checked-main2 {
+                    position: absolute;
+                    top: 319px;
+                    left: 150px;
+                }
+            }
+
+            .input-block3 {
+                .checked-main3 {
+                    top: 366px;
+                    left: 150px;
+                }
+            }
+        }
+
+        .side-menu {
+            position: fixed;
+            top: 50px;
+            left: -100%;
+            z-index: 9;
+            width: 100%;
+            transition: all ease 0.5s;
+        }
+
+        ul {
+            li {
+                a {
+                    span {
+                        display: block;
+                    }
+                }
+            }
+        }
+        
+        .dashboard {
+            width: 100% !important;
+        }
+    }
+    
+    
+    .open-menu + .side-mian {
+        .side-menu {
+            left: 0;
+        }
+    }
+   
+}
+
+.dashboard-card {
+    .d-card-main {
+        .card-box {
+            .card-icon {
+                h2 {
+                    font-size: 22px;
+                    line-height: 30px;
+
+                }
+            }
+        }
+    }
+}
+
+.agent-statistics-section {
+    .agent-statistics-main {
+        .agent-blog-left {
+            .agent-loader {
+                .agent-loader-left {
+                    p {
+                        font-size: 12px;
+                        margin-right: 0;
+                        // max-width: 155px;
+                    }
+
+                    span {
+                        white-space: nowrap;
+                        padding-left: 20px;
+                    }
+                }
+            }
+        }
+
+
+
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width:479px) {
+    .Interaction1 {
+        .agent-statistics-main {
+            .Interaction-blog-left {
+                .circle-chart {
+                    .table-box {
+                        overflow-x: scroll;
+                    }
+                }
+            }
+        }
+    }
+
+    .side-mian .dashboard .dashdoard-right {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 15px;
+    }
+    
+    .side-mian .dashboard .dashdoard-right select {
+        margin-right: 0;
+    }
+
+    .side-mian .dashboard .d-f .dashdoard-left > ul > li {
+        font-size: 15px;
+    }
+    
+    .side-mian .dashboard .dashdoard-right select {
+        font-size: 15px;
+    }
+}
+

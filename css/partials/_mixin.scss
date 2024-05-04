@@ -1,0 +1,56 @@
+@mixin bd-radius($bd :15px) {
+    -webkit-border-radius: $bd;
+    -moz-border-radius: $bd;
+    border-radius: $bd;
+}
+
+@mixin thems($value) {
+    -webkit-color: $value;
+    -moz-color: $value;
+    color: $value;
+}
+
+@mixin box-shadow($top, $left, $blur, $color) {
+    -webkit-box-shadow: $top $left $blur $color ;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+}
+
+@mixin space($spacing: 50px) {
+    padding: $spacing;
+}
+
+@mixin space-py($top: 16px, $bottom: 16px) {
+    padding-top: $top;
+    padding-bottom: $bottom;
+}
+
+@mixin space-px($left: 16px, $right: 16px) {
+    padding-left: $left;
+    padding-right: $right;
+}
+
+@mixin typographi($spacing: 50px) {
+    margin: $spacing;
+}
+
+@mixin mx($left: 10px, $right: 10px) {
+    margin-left: $left;
+    margin-right: $right;
+}
+@mixin my($top: 10px, $bottom: 10px) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+@mixin ms($left: 8px) {
+    margin-left: $left;
+}
+
+@mixin me($right: 10px) {
+    margin-right: $right;
+}
+
+@mixin space-y($space: 8px) {
+    padding: $space;
+}

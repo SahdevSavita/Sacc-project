@@ -1,0 +1,422 @@
+.side-mian {
+    width: 100%;
+    display: flex;
+
+    .side-menu {
+        background-color: $black-color;
+        width: 50px;
+        height: auto;
+        transition: all 0.5s;
+        // position: fixed;
+        // top: 66px;
+        // left: 0;
+        // z-index: 9;
+
+        &:hover span {
+            display: block;
+
+        }
+
+        &:hover {
+            width: 150px;
+        }
+
+        &:hover+.dashboard {
+            width: calc(100% - 150px);
+        }
+
+        ul {
+            padding: 5px;
+
+
+            li {
+                padding: 8px 0;
+                transition: all 0.5s;
+                &:hover{
+                    background-color: $secsece-color;
+                    border-radius: 4px;
+                }
+
+
+                a {
+                    color: $white-color;
+                    display: flex;
+                    align-items: center;
+
+                    .menu-icon {
+                        padding: 5px;
+                    }
+
+                    span {
+                        padding-left: 20px;
+                        display: none;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .dashboard {
+        width: calc(100% - 50px);
+        transition: 0.5s;
+        justify-content: space-between;
+        background-color: $light-primary-color;
+        @include space-py(14px, 14px);
+
+        .d-f {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 15px;
+
+            .dashdoard-left {
+                padding-left: 20px;
+
+                >ul {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    >li {
+                        font-size: 18px;
+                        font-family: $secoundry-font-family;
+                        line-height: 24px;
+                        position: relative;
+
+                        &:nth-child(2)::before {
+                            content: "";
+                            position: absolute;
+                            top: 4px;
+                            left: -10px;
+                            background-color: #39394B;
+                            width: 2px;
+                            height: 16px;
+                            transform: rotate(19deg);
+                        }
+
+                        a {
+                            color: $blue-color;
+                            display: flex;
+                            align-items: center;
+
+                            .dash-angle {
+                                color: $gary-color;
+                                border: solid 1px $gary-color;
+                                padding: 2px;
+                                border-radius: 5px;
+                                margin: 0 10px 0 0px;
+                                font-size: 14px;
+                            }
+
+                            .info-icon {
+                                margin-left: 15px;
+                            }
+                        }
+
+                        .text-color {
+                            color: $gary-color;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .dashdoard-right {
+            display: flex;
+            padding-right: 20px;
+
+            select {
+                appearance: none;
+                color: $blue-color;
+                font-size: 15px;
+                line-height: 20px;
+                border: solid 1px $blue-color;
+                @include bd-radius(4px);
+                @include space-y(5px);
+                cursor: pointer;
+                font-family: $primary-font-family;
+                margin-right: 16px;
+                background-image: url(../img/angle-down.png);
+                background-size: 12px;
+                background-repeat: no-repeat;
+                background-position: 160px;
+
+        
+            }
+
+            .select-btn {
+                .btn-fun {
+                    @include space-y(7px);
+                    background-color: transparent;
+                    @include bd-radius(4px);
+                    border: solid 1px $blue-color;
+                    display: inline-block;
+                    margin-right: 16px;
+                    color: $blue-color;
+                    cursor: pointer;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    &:hover {
+                        background-color: $blue-color;
+                        color: $white-color;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+.form-time {
+    background-color: $sky-blue-color;
+    @include space-py(8px, 8px);
+    display: flex;
+    align-items: center;
+
+    .time-box {
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+
+
+
+        select {
+            color: $blue-color;
+            font-size: 15px;
+            line-height: 20px;
+            border: solid 1px $blue-color;
+            @include bd-radius(4px);
+            @include space-y(5px);
+            cursor: pointer;
+            font-family: $primary-font-family;
+            margin-right: 16px;
+
+
+        }
+
+    }
+
+
+    .agent-box {
+        border: solid 1px $blue-color;
+        background-color: $white-color;
+        @include space-y(5px);
+        @include bd-radius(4px);
+        cursor: pointer;
+        position: relative;
+        font-size: 15px;
+
+        &:hover {
+            background-color: $blue-color;
+
+        }
+
+        &:hover p {
+            color: $white-color;
+        }
+
+        p {
+            color: $blue-color;
+        }
+    }
+
+
+    .checked-main {
+        border: solid 1px;
+        background-color: $white-color;
+        padding: 15px 0;
+        position: absolute;
+        top: 173px;
+        left: 249px;
+        display: none;
+        z-index: 11;
+
+        .delete-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            @include space-px($left: 10px, $right: 10px);
+
+
+            .delete-text {
+                max-width: 230px;
+                border: solid 1px $gary-color;
+                @include space-y(6px);
+                border-bottom: solid 1px $light-gary-color;
+                border-radius: 4px;
+                margin-right: 20px;
+
+                p {
+                    font-size: 14px;
+                    line-height: 19px;
+
+                }
+            }
+        }
+    }
+
+    .input-check {
+        @include space-px(10px, 10px);
+
+        form {
+            padding-top: 10px;
+
+            input {
+                cursor: pointer;
+
+            }
+
+            label {
+                padding-left: 15px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .input-block.open-input .checked-main {
+        display: block;
+    }
+
+    .input-block.open-input .input-angle {
+        transform: rotate(180deg);
+    }
+
+    .input-block2 {
+        &.open-input2 .checked-main2 {
+            display: block;
+
+        }
+
+        &.open-input2 .input-angle2 {
+            transform: rotate(180deg);
+        }
+
+        .agent-box2 {
+            position: relative;
+            max-width: 100px;
+
+            padding: 4px 8px;
+            margin-left: 20px;
+            background-color: $sky-light-color;
+            cursor: pointer;
+
+            p {
+                color: $secsece-color;
+                font-size: 14px;
+                line-height: 19px;
+            }
+        }
+
+        .checked-main2 {
+            position: absolute;
+            top: 174px;
+            left: 538px;
+            border: solid 1px;
+            background-color: $white-color;
+            padding: 15px;
+            display: none;
+            z-index: 12;
+
+            .delete-box {
+                display: flex;
+                align-items: center;
+
+                .delete-text {
+                    border: solid 1px $gary-color;
+                    @include space-y(6px);
+                    border-bottom: solid 1px $light-gary-color;
+                    border-radius: 4px;
+                    margin-right: 15px;
+
+                    p {
+                        font-size: 14px;
+                        color: $light-gary-color;
+                    }
+                }
+            }
+
+            .input-check {
+                form {
+                    input {
+                        .label {
+                            font-size: 14px;
+                            line-height: 19px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .input-block3 {
+        &.open-input3 .checked-main3 {
+            display: block;
+        }
+
+        &.open-input3 .input-angle3 {
+            transform: rotate(180deg);
+        }
+
+        .agent-box3 {
+            position: relative;
+            max-width: 200px;
+            padding: 4px 8px;
+            margin-left: 20px;
+            background-color: #F0F6FF;
+            cursor: pointer;
+
+            p {
+                color: $light-gary-color;
+                font-size: 14px;
+                line-height: 19px;
+
+                .input-angle3 {
+                    margin-left: 5px;
+                }
+
+            }
+
+        }
+
+        .checked-main3 {
+            position: absolute;
+            top: 174px;
+            left: 628px;
+            border: solid 1px;
+            background-color: #fff;
+            padding: 15px;
+            display: none;
+            z-index: 13;
+
+            .delete-box {
+                display: flex;
+                align-items: center;
+
+                .delete-text {
+                    border: solid 1px $gary-color;
+                    @include space-y(6px);
+                    border-bottom: solid 1px $light-gary-color;
+                    border-radius: 4px;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+
+    .link-clear {
+        margin-left: 20px;
+
+        a {
+            color: $blue-color;
+            display: inline-block;
+            font-size: 14px;
+            line-height: 30px;
+        }
+    }
+}

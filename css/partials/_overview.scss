@@ -1,0 +1,118 @@
+section.flow-overview {
+    padding: 0 20px;
+    margin-top: 16px;
+
+    .flow-mian {
+        border: solid 1px #C5D1E0;
+        border-radius: 4px;
+        background-color: $white-color;
+
+        .flow-over-blog {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px;
+            border-bottom: solid 1px #C5D1E0;
+
+            .flow-blog-left {
+                p {
+                    font-size: 14px;
+                    color: #39394B;
+                    line-height: 19px;
+                    font-family: "robotobold";
+                    margin-right: 10px;
+
+                }
+            }
+
+            .flow-blog-right {
+                ul {
+                    display: flex;
+
+                    li {
+                        margin-right: 5px;
+                        transition: 0.5s;
+
+
+                        a {
+                            display: inline-block;
+
+                            .fa-color {
+                                color: #9F9FB6;
+                                font-size: 13px;
+                                transition: 0.5s;
+                                padding: 5px;
+
+                                &:hover {
+                                    background-color: #9F9FB6;
+                                    color: #fff;
+                                    border-radius: 4px;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .scroll-box {
+            width:100%;
+            overflow-x: scroll;
+
+            table {
+
+                border-collapse: collapse;
+
+                thead {
+                    text-align: justify;
+                    background-color: #F6FAFF;
+
+                    th {
+                        font-size: 14px;
+                        line-height: 18px;
+                        font-family: $secoundry-font-family;
+                        padding: 14px 20px;
+                    }
+                    tr.bg-tr2 {
+                        background-color: #f2f2f2;
+                     
+
+                        td {
+                            padding: 14px 15px;
+
+                            input {
+                                border: none;
+                                line-height: 30px;
+                                border-radius: 4px;
+                                width: 80%;
+                            }
+
+                            img {
+                                margin-left: 6px;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+
+
+                }
+
+                tbody {
+         
+
+                    tr {
+                        &:nth-child(even){
+                            background-color: #f2f2f2;
+                        }
+                        td {
+                            padding: 14px 15px;
+                            font-size: 14px;
+                            line-height: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,109 @@
+#header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+
+
+
+    &.open-menu + .side-mian > .side-menu > ul>li>a>span {
+        display:block;
+    }
+
+    &.open-menu+.side-mian>.dashboard {
+        width: calc(100% - 150px);
+    }
+
+
+
+    .logo-box {
+        display: flex;
+        align-items: center;
+
+        .fa-bars {
+            color: $black-color;
+        }
+
+        // .fa-times{
+        //     display: none;
+        // }
+
+        img {
+            margin-left: 30px;
+            background-color: thems(#025874);
+
+        }
+    }
+
+    .qa-noida {
+        >ul {
+            display: flex;
+            align-items: center;
+
+
+            >li {
+                position: relative;
+                // &:hover .sub-qa{
+                //     display: block;
+                // }
+
+                &:first-child {
+                    margin-right: 10px;
+                    background-color: $orange-color;
+                    width: 32px;
+                    height: 32px;
+                    // border-radius: 50%;
+                    @include bd-radius(10px);
+                    font-size: 14px;
+                    padding: 7px;
+                    color: $black-color;
+                    font-family: $secoundry-font-family;
+
+
+                }
+
+                a {
+                    color: $black-color;
+
+                    font-size: 14px;
+                    font-family: $secoundry-font-family;
+
+                }
+
+                .sub-qa {
+                    position: absolute;
+                    top: 20px;
+                    right: 0px;
+                    width: 200px;
+                    padding: 9px 0 9px 0;
+                    border: solid 1px $light-gary-color;
+                    transition: all 0.5s;
+                    display: none;
+
+                    li {
+                        padding-top: 8px;
+                        padding-left: 20px;
+                        @include space(50px);
+
+                        &:nth-child(2) {
+                            border-bottom: solid 1.5px $light-gary-color;
+                            padding-bottom: 9px;
+                        }
+
+                        &:first-child {
+                            padding-top: 0;
+
+                            &:first-child a {
+                                color: $blue-color;
+                            }
+
+
+                        }
+
+                    }
+                }
+
+            }
+        }
+    }
+}
